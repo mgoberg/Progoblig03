@@ -1,0 +1,16 @@
+body {
+  background-color: lightblue;
+}
+
+.overskrift {
+  color: maroon;
+  margin-left: 10px;
+}
+
+.tekstboks {
+  color: maroon;
+}
+
+.knapp-amund {
+  margin-left: 100px;
+}
