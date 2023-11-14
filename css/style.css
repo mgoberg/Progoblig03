@@ -1,16 +1,171 @@
+::selection {
+  background: #52686c;
+}
 body {
-  background-color: lightblue;
+  background-color: #464545;
 }
 
 .overskrift {
-  color: maroon;
-  margin-left: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 50px;
+  padding: 5px;
+  text-shadow: 1px 1px 1px black;
+}
+.underoverskrift {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(194, 193, 193);
+  text-align: center;
+  font-size: 25px;
+  padding: 5px;
+  text-shadow: 1px 1px 1px black;
+}
+.figurer {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-size: 25px;
+  padding: 5px;
+  text-shadow: 1px 1px 1px black;
 }
 
-.tekstboks {
-  color: maroon;
+.bokser {
+  font-family: Arial, Helvetica, sans-serif;
+  display: grid;
+  max-width: 1200px;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-rows: 300px 300px;
+  grid-auto-rows: 300px;
+  justify-content: center;
+  margin: auto;
 }
 
+.bokser > div {
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  font-size: 2em;
+  color: #ffffff;
+  border-radius: 10px;
+  text-shadow: 2px 2px 2px black;
+}
+
+.bokser > div {
+  background-color: #2f2f2f;
+  box-shadow: 1px 2px 2px rgb(22, 21, 21);
+}
+.navbar {
+  position: relative;
+  text-align: center;
+  padding: 20px;
+}
 .knapp-amund {
-  margin-left: 100px;
+  background-color: #52686c;
+  border: black;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  justify-content: center;
+  margin: auto;
+  border-radius: 5px;
+  color: rgb(0, 0, 0);
+  font-weight: Bold;
+}
+.knapp-amund:hover {
+  box-shadow: 1px 6px 6px rgb(22, 21, 21);
+}
+.knapp-aron {
+  background-color: #52686c;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  justify-content: center;
+  margin: auto;
+  border-radius: 5px;
+  color: #000000;
+  font-weight: Bold;
+}
+.knapp-aron:hover {
+  box-shadow: 1px 6px 6px rgb(22, 21, 21);
+}
+.knapp-mehmet {
+  background-color: #52686c;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  justify-content: center;
+  margin: auto;
+  border-radius: 5px;
+  color: #000000;
+  font-weight: Bold;
+}
+.knapp-mehmet:hover {
+  box-shadow: 1px 6px 6px rgb(22, 21, 21);
+}
+.knapp-thea {
+  background-color: #52686c;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  justify-content: center;
+  margin: auto;
+  border-radius: 5px;
+  color: #000000;
+  font-weight: Bold;
+}
+.knapp-thea:hover {
+  box-shadow: 1px 6px 6px rgb(22, 21, 21);
+}
+.knapp-lena {
+  background-color: #52686c;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  justify-content: center;
+  margin: auto;
+  border-radius: 5px;
+  color: #000000;
+  font-weight: Bold;
+}
+.knapp-lena:hover {
+  box-shadow: 1px 6px 6px rgb(22, 21, 21);
+}
+.knapp-martin {
+  background-color: #52686c;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  justify-content: center;
+  margin: auto;
+  border-radius: 5px;
+  color: #000000;
+  font-weight: Bold;
+}
+.knapp-martin:hover {
+  box-shadow: 1px 6px 6px rgb(22, 21, 21);
 }
